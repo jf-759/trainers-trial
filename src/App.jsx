@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import deck from "./data"
 import './App.css'
 

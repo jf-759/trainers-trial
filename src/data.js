@@ -5,8 +5,26 @@ const deck = {
         {
             id: 1,
             name: "Pikachu",
-            image: ""
+            image: "",
             description: "An electric-type Pokemon known for storing electricity in its cheeks."
+        },
+        {
+            id: 2,
+            name: "Charmander",
+            image: "",
+            description: "A Fire-type starter Pokemon. Its tail flame shows its life force."
+        },
+        {
+            id: 3,
+            name: "Bulbasaur",
+            image: "",
+            description: "A Grass/Poison-type Pokemon that has a plant bulb growing on its back."
+        },
+        {
+            id: 4,
+            name: "Squirtle",
+            image: "",
+            description: "A water-type Pokemon that withdraws into its shell for protection."
         },
     ]
 }

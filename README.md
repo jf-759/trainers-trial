@@ -1,6 +1,6 @@
 # Web Development Project 2 - *Trainer's Trial*
 
-Submitted by: **Jane Fernandez*
+Submitted by: **Jane Fernandez**
 
 This web app: **Are you ready to become a Pokemon master? Before you do, let's test your knowledge and see if you know these Pokemon.**
 
@@ -38,7 +38,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/vKVBaK0' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Project Demo](https://imgur.com/gallery/trainers-trial-vKVBaK0#wsFZ7sC)
 
 ## Notes
 

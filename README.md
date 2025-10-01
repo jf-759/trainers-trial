@@ -1,10 +1,10 @@
-# Web Development Project 2 - *Name of App Here*
+# Web Development Project 2 - *Trainer's Trial*
 
-Submitted by: **Your Name Here**
+Submitted by: **Jane Fernandez*
 
-This web app: **insert description**
+This web app: **Are you ready to become a Pokemon master? Before you do, let's test your knowledge and see if you know these Pokemon.**
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
@@ -33,30 +33,20 @@ The following **optional** features are implemented:
     - Difficulty: Easy/medium/hard
     - Subject: Biology/Chemistry/Physics/Earth science
 
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+<img src='https://imgur.com/a/vKVBaK0' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had some trouble with currentIndex and debugging.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Jane Fernandez]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

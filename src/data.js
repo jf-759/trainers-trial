@@ -1,5 +1,7 @@
 import pikaShadow from "./assets/pikaShadow.jpg"
 import pikachu from "./assets/pikachu.jpg"
+import charShadow from "./assets/charShadow.jpg"
+import charmander from "./assets/charmander.jpg"
 
 const deck = {
     title: "Trainer's Trial",
@@ -15,18 +17,21 @@ const deck = {
         {
             id: 2,
             name: "Charmander",
-            image: "",
+            shadow: charShadow,
+            image: charmander,
             description: "A Fire-type starter Pokemon. Its tail flame shows its life force."
         },
         {
             id: 3,
-            name: "Bulbasaur",
+            name: "Vaporeon",
+            shadow:
             image: "",
             description: "A Grass/Poison-type Pokemon that has a plant bulb growing on its back."
         },
         {
             id: 4,
             name: "Squirtle",
+            shadow:
             image: "",
             description: "A water-type Pokemon that withdraws into its shell for protection."
         },

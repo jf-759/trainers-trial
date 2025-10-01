@@ -7,13 +7,20 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const nextCard = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % deck.cards.length)
+    let randomIndex
+    do {
+      randomIndex = Math.floor(Math.random() * deck.cards.length)
+    } while (randomIndex === currentIndex)
+    setCurrentIndex(randomIndex)
   }
 
   return (
     <div className="App">
       <h1 className="title">{deck.title}</h1>
       <p className="description">{deck.description}</p>
+      <p className="count">
+        Card {currentIndex + 1} of {deck.cards.length} | Total cards: {deck.cards.length}
+      </p>
 
       {deck.cards && deck.cards.length > 0 ? (
         <Flashcard
@@ -27,7 +34,9 @@ function App() {
         <p>No cards available.</p>
       )}
 
-      <button className="next-btn" onClick={nextCard}>Next Card</button>
+      <button className="next-btn" onClick={nextCard}>
+        Next Card
+      </button>
     </div>
   )
 }

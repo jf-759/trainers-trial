@@ -19,7 +19,7 @@ function Flashcard({ name, image, shadow, description}) {
                 <div className="back">
                     <h2>{name}</h2>
                     <img src={image} alt={name} className="pokemon-image"/>
-                    <p>{description}</p>
+                    <p className="description">{description}</p>
                 </div>
             </div>
         </div>

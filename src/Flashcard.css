@@ -20,8 +20,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    text-align: center;
     transform-style: preserve-3d;
     transition: transform 0.6s;
 }
@@ -45,7 +43,6 @@
 
 .back {
     transform: rotateY(180deg);
-
 }
 
 .shadow {

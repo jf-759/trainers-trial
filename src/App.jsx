@@ -1,21 +1,35 @@
+import { useState } from "react"
 import deck from "./data"
-import './App.css'
+import Flashcard from "./Flashcard"
+import "./App.css"
 
 function App() {
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  const nextCard = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % deck.cards.length)
+  }
 
   return (
-    <div>
-      {deck.map((card) => (
-        <Card
-          key={card.id}
-          name={card.name}
-          image={card.image}
-          description={card.description}
+    <div className="App">
+      <h1 className="title">{deck.title}</h1>
+      <p className="description">{deck.description}</p>
+
+      {deck.cards && deck.cards.length > 0 ? (
+        <Flashcard
+          key={deck.cards[currentIndex].id}
+          name={deck.cards[currentIndex].name}
+          shadow={deck.cards[currentIndex].shadow}
+          image={deck.cards[currentIndex].image}
+          description={deck.cards[currentIndex].description}
         />
-      ))}
+      ) : (
+        <p>No cards available.</p>
+      )}
+
+      <button className="next-btn" onClick={nextCard}>Next Card</button>
     </div>
   )
-
 }
 
-export default App
+export default App;

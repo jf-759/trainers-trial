@@ -1,3 +1,6 @@
+import pikaShadow from "./assets/pikaShadow.jpg"
+import pikachu from "./assets/pikachu.jpg"
+
 const deck = {
     title: "Trainer's Trial",
     description: "Flip the card to reveal the creature! Test your memory and see how many you know!",
@@ -5,7 +8,8 @@ const deck = {
         {
             id: 1,
             name: "Pikachu",
-            image: "",
+            shadow: pikaShadow,
+            image: pikachu,
             description: "An electric-type Pokemon known for storing electricity in its cheeks."
         },
         {

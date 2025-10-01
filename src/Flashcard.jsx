@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "./Flashcard.css"
  
-function Flashcard({ name, image, description}) {
+function Flashcard({ name, image, shadow, description}) {
     const [flipped, setFlipped] = useState(false)
 
     const handleFlip = () => {
@@ -12,8 +12,8 @@ function Flashcard({ name, image, description}) {
         <div className="flashcard-container" onClick={handleFlip}>
             <div className={`flashcard ${flipped ? "flipped" : ""}`}>
                 <div className="front">
-                    <h2>who's That Pokemon?!</h2>
-                    <img src={image} alt="pokemon-shadow" className="shadow" />
+                    <h2>Who's That Pokemon?!</h2>
+                    <img src={shadow} alt="pokemon-shadow" className="shadow" />
                 </div>
 
                 <div className="back">

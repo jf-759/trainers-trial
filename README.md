@@ -23,7 +23,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-[Project Demo](https://imgur.com/a/WpHrnsD)
+[Project Demo](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW5lZDQ1Y2Y4cnljbnV4eHpveXg3YWpwdHhvMGJnZnJrbTVuZXAzcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qpmuA1oCbguwK3L9jh/giphy.gif)
 
 ## License
 

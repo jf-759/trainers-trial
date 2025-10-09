@@ -25,6 +25,8 @@ Here's a walkthrough of implemented user stories:
 
 [Project Demo](https://imgur.com/gallery/trainers-trial-two-257qf3E#PrwDKGv)
 
+[GIF](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmFvNTF6dnRqOW1mcDd3aXg5MnB4cDF6cGpraW5jdXlsZG9hNnpqZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f6gwgynHQdR1PmskPh/giphy.gif)
+
 ## License
 
     Copyright [2025] [Jane Fernandez]

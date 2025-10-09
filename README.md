@@ -23,7 +23,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-[Project Demo](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2VqMm9pc2Jzb3o5MHVqODkza3R5dWFncmlmMHI4Y3NwZ2tuNjhwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oqQ84yHEpKrb2M0Y4Z/giphy.gif)
+[Project Demo](https://imgur.com/gallery/trainers-trial-two-257qf3E#PrwDKGv)
 
 ## License
 
